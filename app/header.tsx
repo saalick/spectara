@@ -7,7 +7,7 @@ export default function Header() {
       <a href="https://togetherai.link" target="_blank">
         <Image alt="" className="h-8 w-auto" src={logo} />
       </a>
-      <p className="font-mono text-gray-600">Generate AI Images with LoRAs</p>
+      <p className="font-mono text-gray-600">Generate AI Images with Spectara</p>
     </div>
   );
 }
