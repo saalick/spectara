@@ -106,7 +106,7 @@ export default function Home() {
               <div className="flex flex-col gap-8">
                 <div>
                   <p className="font-mono font-medium tracking-tight">
-                    Select a LoRA
+                    Select a style
                   </p>
                   <RadioGroup.Root
                     name="lora"
@@ -352,7 +352,7 @@ export default function Home() {
               <div className="mt-8 flex items-center justify-center md:mt-0 md:justify-between md:gap-6">
                 <div className="flex gap-6 md:gap-2">
                   <a
-                    href="https://github.com/Nutlope/loras-dev"
+                    href="https://github.com/luminailabs/spectara"
                     target="_blank"
                   >
                     <Button
@@ -364,7 +364,7 @@ export default function Home() {
                       GitHub
                     </Button>
                   </a>
-                  <a href="https://x.com/nutlope" target="_blank">
+                  <a href="https://x.com/spectara_io" target="_blank">
                     <Button
                       size="sm"
                       variant="outline"
