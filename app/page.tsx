@@ -303,11 +303,9 @@ export default function Home() {
                             alt=""
                             src={heroImage}
                           />
-                          <div className="absolute inset-0 bg-gradient-to-b from-white/10 via-white/20 to-white" />
+                          
                         </div>
-<br>
-  <br>
-    <br>
+
                         <div className="relative mt-2">
                           <h1 className="text-balance text-4xl font-semibold tracking-tight">
                             Create stylized images in seconds
