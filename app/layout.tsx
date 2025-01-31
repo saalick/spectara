@@ -57,7 +57,7 @@ export default function RootLayout({
       <head>
         <PlausibleProvider domain="loras.dev" />
       </head>
-      <body className="h-full min-h-full font-sans text-gray-900 antialiased">
+      <body className="h-full min-h-full font-sans bg-gray-900 text-gray-300 antialiased">
         <Providers>{children}</Providers>
       </body>
     </html>
