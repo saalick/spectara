@@ -98,7 +98,7 @@ export default function Home() {
         }}
       >
         <fieldset className="flex grow flex-col md:h-full md:flex-row md:overflow-hidden">
-          <div className="w-full bg-gray-100 md:max-w-sm md:overflow-y-auto">
+          <div className="w-full bg-gray-900 md:max-w-sm md:overflow-y-auto">
             <div className="mt-4 md:hidden">
               <Header />
             </div>
