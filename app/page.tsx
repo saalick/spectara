@@ -311,7 +311,7 @@ export default function Home() {
                             Create stylized images in seconds
                           </h1>
                           <p className="mt-3 text-balance px-4 text-center text-gray-500">
-                            Enter your prompt, choose a LoRA, and generate
+                            Enter your prompt, choose a style, and generate
                             beautiful images.
                           </p>
                         </div>
