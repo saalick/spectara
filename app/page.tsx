@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/dialog";
 import { Lora, LORAS } from "@/data/loras";
 import imagePlaceholder from "@/public/image-placeholder.png";
-import heroImage from "@/public/hero-image.png";
+import heroImage from "@/public/hero-image1.png";
 import {
   CheckCircleIcon,
   InformationCircleIcon,
