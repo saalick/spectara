@@ -351,29 +351,19 @@ export default function Home() {
 
               <div className="mt-8 flex items-center justify-center md:mt-0 md:justify-between md:gap-6">
                 <div className="flex gap-6 md:gap-2">
-                  <a
-                    href="https://github.com/luminailabs/spectara"
-                    target="_blank"
-                  >
-                    <Button
-                      variant="outline"
-                      size="sm"
-                      className="inline-flex items-center gap-2"
-                    >
-                      <GithubIcon className="size-4" />
-                      GitHub
-                    </Button>
-                  </a>
-                  <a href="https://x.com/spectara_io" target="_blank">
-                    <Button
-                      size="sm"
-                      variant="outline"
-                      className="inline-flex items-center gap-2"
-                    >
-                      <XIcon className="size-3" />
-                      Twitter
-                    </Button>
-                  </a>
+                  <a href="https://github.com/luminailabs/spectara" target="_blank" onClick={(e) => e.stopPropagation()}>
+  <Button variant="outline" size="sm" className="inline-flex items-center gap-2">
+    <GithubIcon className="size-4" />
+    GitHub
+  </Button>
+</a>
+<a href="https://x.com/spectara_io" target="_blank" onClick={(e) => e.stopPropagation()}>
+  <Button size="sm" variant="outline" className="inline-flex items-center gap-2">
+    <XIcon className="size-3" />
+    Twitter
+  </Button>
+</a>
+
                 </div>
               </div>
             </footer>
